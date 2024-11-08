@@ -23,7 +23,7 @@ Add your answers to this markdown file.
 
 In order to verify the Computer Science Researchers claim that this proprietary sorting algorithm can sort arbitrary elements in O(n) time based on comparisons of two elements, there are two main steps I would take in approaching the problem
 1. Emperical Testing
-   - In order to verify the Computer Science Researchers claim that this proprietary sorting algorithm can sort arbitrary elements in O(n) time based on comparisons of two elements, there are two main steps I would take in approaching the problem
+   - Due to having access to the algorithm through a black-box implementation, I would test it with a range of input sizes. Then I would analyze the time it takes to complete each sort. For this there are specifically three main things that will take place: 
        - Generating Test Cases:
            - Will generate test cases that will be various sizes, which will exponentially increase
            - i.e., n = 10 , 100 ,1000 ,10000 , etc...
